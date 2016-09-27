@@ -1,0 +1,32 @@
+{
+  "name": "kb/contentslider-swiper",
+  "description": "Custom Anchor Navigation",
+  "keywords": ["contao", "extension", "slider", "content slider", "swiper"],
+  "type": "contao-module",
+  "homepage": "",
+  "license": "LGPL-3.0+",
+  "authors":[
+    {
+      "name":"Katrin Beutler"
+    }
+  ],
+  "require": {
+    "php":">=5.3",
+    "contao/core":"~3.5",
+    "contao-community-alliance/composer-plugin": "~2.0"
+  },
+  "extra":{
+    "contao": {
+      "sources":{
+        "": "system/modules/KbContentSliderSwiper"
+      }
+    },
+    "autoload": {
+      // Classmap
+      "classmap": [""]
+    }
+    "branch-alias": {
+      "dev-master": "0.1.x-dev"
+    }
+  }
+}
