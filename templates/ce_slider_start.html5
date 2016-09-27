@@ -1,0 +1,37 @@
+<?php /** 
+
+<div class="<?= $this->class ?> block"<?= $this->cssID ?><?php if ($this->style): ?> style="<?= $this->style ?>"<?php endif; ?>>
+
+  <?php if ($this->headline): ?>
+    <<?= $this->hl ?>><?= $this->headline ?></<?= $this->hl ?>>
+  <?php endif; ?>
+
+  <div class="content-slider" data-config="<?= $this->config ?>">
+    <div class="slider-wrapper">
+**/ ?>
+
+
+<div class="<?= $this->class ?> block"<?= $this->cssID ?><?php if ($this->style): ?> style="<?= $this->style ?>"<?php endif; ?> >
+
+  <?php if ($this->headline): ?>
+    <<?= $this->hl ?>><?= $this->headline ?></<?= $this->hl ?>>
+  <?php endif; ?>
+<!-- Slider main container -->
+<div class="swiper-container block"
+  <?php if($this->slider_effect): ?> data-slider-effect ="<?= $this->slider_effect ?>" <?php endif; ?>
+  <?php if($this->sliderContinuous): ?> data-slider-loop ="true" <?php endif; ?>
+  <?php if($this->sliderDelay != 0): ?> data-slider-autoplay ="<?= $this->sliderDelay ?>" <?php endif; ?>
+  <?php if($this->sliderSpeed): ?> data-slider-speed ="<?= $this->sliderSpeed ?>" <?php endif; ?>
+  <?php if($this->sliderStartSlide): ?> data-slider-initialSlide ="<?= $this->sliderStartSlide ?>" <?php endif; ?>
+  <?php if($this->slider_autoHeight): ?> data-slider-autoHeight ="true" <?php endif; ?>
+  <?php if($this->slider_menuButton): ?> data-slider-buttons ="true" <?php endif; ?>
+  <?php if($this->slider_menuPagination): ?> data-slider-pagination ="true" <?php endif; ?>
+  <?php if($this->slider_menuScrollbar): ?> data-slider-scrollbar ="true" <?php endif; ?>
+  <?php if($this->slider_spaceBetween): ?> data-slider-spaceBetween ="<?= $this->slider_spaceBetween ?>"<?php endif; ?>
+  <?php if($this->slider_autoplayDisableOnInteraction == '1'): ?> data-slider-autoplayDisableOnInteraction ="false"<?php endif; ?>
+  data-slider-initReady = "false"
+>
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide" data-hash="slide_<?= $this->id; ?>">

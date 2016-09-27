@@ -1,0 +1,26 @@
+<?php /** 
+
+    </div>
+  </div>
+
+  <nav class="slider-control">
+    <a href="#" class="slider-prev"><?= $this->previous ?></a>
+    <span class="slider-menu"></span>
+    <a href="#" class="slider-next"><?= $this->next ?></a>
+  </nav>
+
+</div>
+**/ ?>
+            </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+        
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"><span class="icon-arrow-box-left"></span></div>
+        <div class="swiper-button-next"><span class="icon-arrow-box-right"></span></div>
+        
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+    </div>
+</div>
