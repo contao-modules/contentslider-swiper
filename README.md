@@ -1,6 +1,21 @@
 #README
 
-## install module
+## install module via composer
+
+add to file *composer/composer.json*
+
+- add to repositories block:   
+<code>
+{   
+	"type": "vcs",   
+	"url": "http://github.com/contao-modules/custom-anchor-navigation.git"   
+},   
+</code>   
+
+- add to required block:
+<code>"kb/custom-anchor-navigation": "0.1.*"</code>
+
+## install npm module
 
 - install npm module "swiper" <code>npm install swiper</code>
 - restart npm <code>npm run go</code>
