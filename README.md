@@ -1,4 +1,4 @@
-#README
+#README contentslider-swiper
 
 ## install module via composer
 
@@ -8,12 +8,12 @@ add to file *composer/composer.json*
 <code>
 {   
 	"type": "vcs",   
-	"url": "http://github.com/contao-modules/custom-anchor-navigation.git"   
+	"url": "http://github.com/contao-modules/contentslider-swiper.git"   
 },   
 </code>   
 
 - add to required block:
-<code>"kb/custom-anchor-navigation": "0.1.*"</code>
+<code>"kb/contentslider-swiper.git": "0.1.*"</code>
 
 ## install npm module
 

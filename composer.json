@@ -15,16 +15,15 @@
     "contao/core":"~3.5",
     "contao-community-alliance/composer-plugin": "~2.0"
   },
+  "autoload":{
+    "classmap":[""]
+  },
   "extra":{
     "contao": {
       "sources":{
         "": "system/modules/KbContentSliderSwiper"
       }
     },
-    "autoload": {
-      // Classmap
-      "classmap": [""]
-    }
     "branch-alias": {
       "dev-master": "0.1.x-dev"
     }
