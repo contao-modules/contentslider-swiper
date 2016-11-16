@@ -24,7 +24,7 @@ add to file *composer/composer.json*
 Add to resources/scripts/app.js
 
 <code>
-// Slider - Swiper   
+// Slider - Swiper<br/>
 import 'swiper/dist/css/swiper.min.css';<br/>
 import 'swiper/dist/js/swiper.min.js';<br/>
 import '../../system/modules/KbContentSliderSwiper/assets/slider-swiper.js';
