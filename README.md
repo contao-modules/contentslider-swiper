@@ -13,7 +13,7 @@ add to file *composer/composer.json*
 </code>   
 
 - add to required block:
-<code>"kb/contentslider-swiper.git": "0.1.*"</code>
+<code>"kb/contentslider-swiper": "0.1.*"</code>
 
 ## install npm module
 
@@ -27,7 +27,7 @@ Add to resources/scripts/app.js
 // Slider - Swiper   
 import 'swiper/dist/css/swiper.min.css';   
 import 'swiper/dist/js/swiper.min.js';   
-import '../../system/modules/zCustomModules/assets/slider-swiper.js';   
+import '../../system/modules/KbContentSliderSwiper/assets/slider-swiper.js';   
 </code>
 
 ## update DB in Contao
