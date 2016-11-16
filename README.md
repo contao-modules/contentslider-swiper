@@ -25,9 +25,9 @@ Add to resources/scripts/app.js
 
 <code>
 // Slider - Swiper   
-import 'swiper/dist/css/swiper.min.css';   
-import 'swiper/dist/js/swiper.min.js';   
-import '../../system/modules/KbContentSliderSwiper/assets/slider-swiper.js';   
+import 'swiper/dist/css/swiper.min.css';
+import 'swiper/dist/js/swiper.min.js';
+import '../../system/modules/KbContentSliderSwiper/assets/slider-swiper.js';
 </code>
 
 ## update DB in Contao
