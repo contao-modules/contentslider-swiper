@@ -24,10 +24,10 @@ add to file *composer/composer.json*
 Add to resources/scripts/app.js
 
 <code>
-// Slider - Swiper   
-import 'swiper/dist/css/swiper.min.css';   
-import 'swiper/dist/js/swiper.min.js';   
-import '../../system/modules/KbContentSliderSwiper/assets/slider-swiper.js';   
+// Slider - Swiper<br/>
+import 'swiper/dist/css/swiper.min.css';<br/>
+import 'swiper/dist/js/swiper.min.js';<br/>
+import '../../system/modules/KbContentSliderSwiper/assets/slider-swiper.js';
 </code>
 
 ## update DB in Contao
