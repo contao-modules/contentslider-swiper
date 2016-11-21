@@ -30,5 +30,10 @@ import 'swiper/dist/js/swiper.min.js';
 import '../../system/modules/KbContentSliderSwiper/assets/slider-swiper.js';
 ```
 
-## update DB in Contao
-## generate autoload.php for module in Contao
+## Inside Contao
+- update DB goto page **Package management** and hit **update database**
+- regenerate **autoload.php** for module in Contao
+	- goto page Developer tools > Autoload creator
+	- check your module **KbContentSliderSwiper**
+	- check **Override existing files**
+	- hit button **create the autoload files**
