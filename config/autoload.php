@@ -24,10 +24,10 @@ ClassLoader::addClasses(array
  */
 TemplateLoader::addFiles(array
 (
-	'be_slider_group'    => 'system/modules/z_ContentSliderSwiper/templates',
-	'block_searchable'   => 'system/modules/z_ContentSliderSwiper/templates',
-	'block_unsearchable' => 'system/modules/z_ContentSliderSwiper/templates',
-	'ce_slider_group'    => 'system/modules/z_ContentSliderSwiper/templates',
-	'ce_slider_start'    => 'system/modules/z_ContentSliderSwiper/templates',
-	'ce_slider_stop'     => 'system/modules/z_ContentSliderSwiper/templates',
+	'be_slider_group'    => 'system/modules/KbContentSliderSwiper/templates',
+	'block_searchable'   => 'system/modules/KbContentSliderSwiper/templates',
+	'block_unsearchable' => 'system/modules/KbContentSliderSwiper/templates',
+	'ce_slider_group'    => 'system/modules/KbContentSliderSwiper/templates',
+	'ce_slider_start'    => 'system/modules/KbContentSliderSwiper/templates',
+	'ce_slider_stop'     => 'system/modules/KbContentSliderSwiper/templates',
 ));
