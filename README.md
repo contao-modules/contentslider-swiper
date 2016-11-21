@@ -5,12 +5,12 @@
 add to file *composer/composer.json*
 
 - add to repositories block:   
-<code>
+```
 {   
 	"type": "vcs",   
 	"url": "http://github.com/contao-modules/contentslider-swiper.git"   
 },   
-</code>   
+```   
 
 - add to required block:
 <code>"kb/contentslider-swiper": "0.1.*"</code>
