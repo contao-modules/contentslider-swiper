@@ -15,7 +15,7 @@
 ClassLoader::addClasses(array
 (
 	// Elements
-	'SliderGroup' => 'system/modules/z_ContentSliderSwiper/elements/SliderGroup.php',
+	'SliderGroup' => 'system/modules/KbContentSliderSwiper/elements/SliderGroup.php',
 ));
 
 
