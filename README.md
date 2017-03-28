@@ -6,10 +6,7 @@ add to file *composer/composer.json*
 
 - add to repositories block:   
 ```
-{   
-	"type": "vcs",   
-	"url": "http://github.com/contao-modules/contentslider-swiper.git"   
-},   
+{"type": "composer", "url": "https://php.fury.io/f_zMw5dGUyUYzpxn_gDc/pwcsexperiencecenter/"} 
 ```   
 
 - add to required block:
