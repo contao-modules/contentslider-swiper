@@ -13,7 +13,7 @@ add to file *composer/composer.json*
 ```   
 
 - add to required block:
-```"kb/contentslider-swiper": "0.1.*"```
+```"kb/contentslider-swiper": "^1.0@alpha"```
 
 ## install npm module
 
